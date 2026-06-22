@@ -11,7 +11,7 @@ public class CardPayment extends Payment {
     }
 
     public void processPayment(){
-        System.out.println("Processing card payment of Rs. " + amount + " using card: " + cardNumber);
+        System.out.println("Processing card payment of Rs. " + super.amount + " using card: " + this.cardNumber);
 
     }
 
