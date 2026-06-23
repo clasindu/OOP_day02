@@ -15,6 +15,10 @@ public class CardPayment extends Payment {
 
     }
 
+    public void getCardHolderAddress(){
+        System.out.println("Getting cardholder info");
+    }
+
 
 
 }
